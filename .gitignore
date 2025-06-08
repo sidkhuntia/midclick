@@ -1,0 +1,48 @@
+Here’s a tailored `.gitignore` for your Xcode/macOS Swift project:
+
+```gitignore
+# Xcode
+#
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+
+# Xcode project user settings
+xcuserdata/
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+/.build/
+/Packages/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+
+# Temporary files
+*.swp
+*~
+.DS_Store
+
+# macOS
+#
+# Icon must end with two \r
+Icon
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Certificates
+*.cer
+*.mobileprovision
+```
+
+Let me know if there are any other files or directories you’d like to exclude!
